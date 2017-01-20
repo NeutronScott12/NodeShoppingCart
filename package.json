@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "seed": "node ./seed/product-seeder.js"
   },
   "engines": {
     "node": "7.2.1"
