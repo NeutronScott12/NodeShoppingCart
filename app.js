@@ -17,8 +17,8 @@ let user = require('./routes/user');
 
 let app = express();
 
-mongoose.connect('mongodb://localhost:27017/shoppingCart', (err, db) => {
-
+mongoose.connect('mongodb://scott:bob123@ds117919.mlab.com:17919/node-shopping-cart', (err, db) => {
+  if(err)console.error(err);
 })
 
 require('./config/passport');
